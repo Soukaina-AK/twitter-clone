@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <Router>
+   
         <div className='h-screen flex flex-col md:gap-4 md:flex-row md:px-1 xl:px-3 xl:gap-5 overflow-hidden'>
 
             <Header/>
@@ -37,7 +37,7 @@ function Home() {
                 
             </div>
         </div>
-    </Router>
+
   )
 }
 
@@ -129,10 +129,10 @@ const ProfileBar = () =>{
                         <p className='p-2'>Developers</p>
                     </Link>
                     
-                    <div className='flex flex-row items-center px-3 rounded-md w-full'>
+                    <Link to='/login' className='flex flex-row items-center px-3 rounded-md w-full'>
                         <LogoutIcon />
                         <p className='p-2'>Logout</p>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>
