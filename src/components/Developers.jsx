@@ -11,7 +11,7 @@ function Developers() {
                     <div className='flex flex-row gap-3 items-center'>
                         <div id='img' className='w-14 h-14 bg-indigo-700 rounded-full'></div>
                         <div>
-                            <h3 className='text-lg'>Soukaina Akaroum</h3>
+                            <h3>Soukaina Akaroum</h3>
                             <p className='text-sm'>soukainaakaroum05@gmail.com</p>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ function Developers() {
                     <div className='flex flex-row gap-3 items-center'>
                         <div id='img' className='w-14 h-14 bg-indigo-700 rounded-full'></div>
                         <div>
-                            <h3 className='text-lg'>Abdelali AitAddi</h3>
+                            <h3>Abdelali AitAddi</h3>
                             <p className='text-sm'>abdelali.aitaddi@gmail.com</p>
                         </div>
                     </div>

@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className='flex flex-row items-center justify-between h-10 p-3 mt-5 md:hidden text-gray-400'>
         <div className='flex flex-row gap-4'>
-            <Link to='/main' className='hover:text-white'><HomeIcon/></Link>
+            <Link to='/' className='hover:text-white'><HomeIcon/></Link>
             <Link to='/notifications' className='hover:text-white'><NotificationsIcon/></Link>
             <Link to='/developers' className='hover:text-white'><CodeIcon/></Link>
         </div>

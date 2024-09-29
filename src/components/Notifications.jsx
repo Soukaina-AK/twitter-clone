@@ -32,7 +32,7 @@ const Notif = () => {
       <div className='flex flex-row items-center gap-3'>
         <div className='h-14 w-14 rounded-full bg-indigo-400'></div>
         <div className='flex flex-col'>
-          <h2 className='text-lg'>Soukaina Akaroum</h2>
+          <h2>Soukaina Akaroum</h2>
           <div className='flex flex-row items-center gap-2 text-sm'>
             <p>Shared a post.</p>
             <span>18h</span>
